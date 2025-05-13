@@ -21,8 +21,8 @@ def normalize_vector(vec):
 def main():
     print("📲 Welcome to the Secure Shop!")
 
-    token = "321tceres"[::-1] 
-    secret = "321tceres"
+    token = "secret123"
+    secret = "321terces"
 
     if verify_token(token, secret):
         print("✅ Token verified!")
